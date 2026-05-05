@@ -1,5 +1,5 @@
 {
-  "name": "render-bot",
+  "name": "termux-bot",
   "version": "1.0.0",
   "main": "clean_bot_full.js",
   "scripts": {
