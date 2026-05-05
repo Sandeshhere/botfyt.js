@@ -1,0 +1,12 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "main": "botfyt.js",
+  "scripts": {
+    "start": "node botfyt.js"
+  },
+  "dependencies": {
+    "facebook-chat-api": "latest",
+    "express": "latest"
+  }
+}
