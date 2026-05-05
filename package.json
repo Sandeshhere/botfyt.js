@@ -1,12 +1,18 @@
 {
-  "name": "messenger-bot",
+  "name": "botfyt",
   "version": "1.0.0",
   "main": "botfyt.js",
   "scripts": {
     "start": "node botfyt.js"
   },
   "dependencies": {
-    "facebook-chat-api": "latest",
-    "express": "latest"
+    "express": "latest",
+    "axios": "latest",
+    "body-parser": "latest",
+    "messenger-bot": "latest",
+    "googleapis": "latest",
+    "openai": "latest",
+    "ts-node": "latest",
+    "yt-search": "latest"
   }
 }
