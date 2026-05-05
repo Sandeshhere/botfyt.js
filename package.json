@@ -1,22 +1,14 @@
 {
-  "name": "botfyt",
+  "name": "render-bot",
   "version": "1.0.0",
-  "description": "Facebook Messenger Bot",
-  "main": "botfyt.js",
+  "main": "clean_bot_full.js",
   "scripts": {
-    "start": "node botfyt.js"
+    "start": "node clean_bot_full.js"
   },
   "dependencies": {
-    "axios": "latest",
-    "body-parser": "latest",
-    "express": "latest",
-    "googleapis": "latest",
-    "messenger-bot": "latest",
-    "openai": "latest",
-    "ts-node": "latest",
-    "yt-search": "latest",
-    "ws3-fca": "latest",
-    "socket.io": "latest",
-    "path": "latest"
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "body-parser": "^1.20.0",
+    "ws3-fca": "*"
   }
 }
