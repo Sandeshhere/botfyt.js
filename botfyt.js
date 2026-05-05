@@ -15,7 +15,7 @@ const io = new Server(server);
 let botAPI = null;
 let adminID = null;
 let prefix = '/';
-let botNickname = 'LEGEND PRINCE';
+let botNickname = 'LEGEND SASKE';
 let lockedGroups = {};       // threadID -> title
 let lockedNicknames = {};    // threadID -> nickname
 let lockedTargets = {};      // threadID -> targetUserID (string)
@@ -27,7 +27,7 @@ let conversationState = {}; // threadID -> stage
 // Track last message to avoid spam replies
 let lastMessageTime = {}; // threadID -> timestamp
 
-const signature = `\n\n— 💕𝑴𝑹 𝑷𝑹𝑰𝑵𝑪𝑬 💕`;
+const signature = `\n\n— 💕𝑴𝑹 𝐒𝐀𝐒𝐊𝐄 💕`;
 const separator = `\n------------------------------`;
 
 // === MASTI AUTO REPLY ===
@@ -166,7 +166,7 @@ async function formatMessage(api, event, mainText) {
   }
 
   return {
-    body: `@${senderName} ${mainText}\n\n— 💕𝑴𝑹 𝑷𝑹𝑰𝑵𝑪𝑬 💕\n------------------------------`,
+    body: `@${senderName} ${mainText}\n\n— 💕𝑴𝑹 𝐒𝐀𝐒𝐊𝐄 💕\n------------------------------`,
     mentions: [{ tag: `@${senderName}`, id: senderID }]
   };
 }
